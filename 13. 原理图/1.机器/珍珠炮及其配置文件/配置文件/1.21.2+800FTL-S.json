@@ -1,0 +1,50 @@
+{
+  "Version": "2.7",
+  "NorthEastTNT": {
+    "X": 0.8224999904632568,
+    "Y": 158.5,
+    "Z": -0.8224999904632568
+  },
+  "NorthWestTNT": {
+    "X": -0.8224999904632568,
+    "Y": 158.5,
+    "Z": -0.8224999904632568
+  },
+  "SouthEastTNT": {
+    "X": 0.8224999904632568,
+    "Y": 158.5,
+    "Z": 0.8224999904632568
+  },
+  "SouthWestTNT": {
+    "X": -0.8224999904632568,
+    "Y": 158.5,
+    "Z": 0.8224999904632568
+  },
+  "Destination": {
+    "X": 0,
+    "Y": 0,
+    "Z": 0
+  },
+  "Offset": {
+    "X": 0,
+    "Z": 0
+  },
+  "Pearl": {
+    "Position": {
+      "X": 0,
+      "Y": 158.34888363844604,
+      "Z": 0
+    },
+    "Motion": {
+      "X": 0,
+      "Y": 0.5489480224369752,
+      "Z": 0
+    }
+  },
+  "RedTNT": 0,
+  "BlueTNT": 0,
+  "MaxTNT": 800,
+  "Direction": "North",
+  "DefaultRedTNTDirection": "SouthWest",
+  "DefaultBlueTNTDirection": "NorthEast"
+}

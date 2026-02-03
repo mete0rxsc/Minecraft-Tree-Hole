@@ -1,0 +1,11 @@
+i = SkyLight - SkyDarken
+f = SunAngle = 2π*TimeOfDay
+
+反转模式：
+	return clamp(15 - i, 0, 15)
+		完全露天=SkyDarken
+		完全遮天=15
+非反转模式：
+	g = f < π ？ 0.0 ： 2π
+	f += 0.2(g-f)
+	return clamp(round(i*cos(f)), 0, 15)
